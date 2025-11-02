@@ -4,7 +4,7 @@ Thank you for your interest in contributing to Code Quality Checker! We apprecia
 
 ## How to Contribute
 1. **Fork the repository** on GitHub.
-2. **Create a new branch** for your feature or bug fix:
+2. **Create a new branch** for your feature or bug fix, using the format `feature/YourFeatureName` or `bugfix/YourBugFixName`:
    ```bash
    git checkout -b feature/MyFeature
    ```
