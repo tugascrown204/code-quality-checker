@@ -10,16 +10,20 @@ ${code}
 };
 
 const readFilesRecursively = (directory) => {
-    const files = fs.readdirSync(directory);
-    files.forEach(file => {
-        const filePath = path.join(directory, file);
-        if (fs.statSync(filePath).isDirectory()) {
-            readFilesRecursively(filePath);
-        } else if (file.endsWith('.js')) {
-            const code = fs.readFileSync(filePath, 'utf-8');
-            analyzeCode(code);
-        }
-    });
+    try {
+        const files = fs.readdirSync(directory);
+        files.forEach(file => {
+            const filePath = path.join(directory, file);
+            if (fs.statSync(filePath).isDirectory()) {
+                readFilesRecursively(filePath);
+            } else if (file.endsWith('.js')) {
+                const code = fs.readFileSync(filePath, 'utf-8');
+                analyzeCode(code);
+            }
+        });
+    } catch (error) {
+        console.error(`Error reading directory ${directory}: ${error.message}`);
+    }
 };
 
 const main = (args) => {
