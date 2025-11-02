@@ -10,7 +10,7 @@ Thank you for your interest in contributing to Code Quality Checker! We apprecia
    ```
 3. **Make your changes** and commit them:
    ```bash
-   git commit -m 'Add some feature'
+   git commit -m 'Add your feature description here'
    ```
 4. **Push to your branch**:
    ```bash
@@ -22,7 +22,7 @@ Thank you for your interest in contributing to Code Quality Checker! We apprecia
 If you encounter any bugs or have feature requests, please open an issue on GitHub.
 
 ## Code Style
-We follow standard JavaScript coding conventions. Please make sure your code adheres to these conventions.
+We follow standard JavaScript coding conventions. Please ensure your code adheres to these conventions.
 
 ## Thank You!
 We look forward to your contributions!
