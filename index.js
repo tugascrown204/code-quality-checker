@@ -3,7 +3,7 @@ const path = require('path');
 
 const analyzeCode = (code) => {
     // Placeholder function for analyzing code
-    console.log(`Analyzing code:
+    console.log(`Analyzing the following code:
 ${code}
 `);
     // Analysis logic goes here
