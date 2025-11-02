@@ -16,7 +16,7 @@ Thank you for your interest in contributing to Code Quality Checker! We apprecia
    ```bash
    git push origin feature/MyFeature
    ```
-5. **Open a Pull Request** on GitHub.
+5. **Open a Pull Request** on GitHub against the `main` branch.
 
 ## Reporting Issues
 If you encounter any bugs or have feature requests, please open an issue on GitHub.
